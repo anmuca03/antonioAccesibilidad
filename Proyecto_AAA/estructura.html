@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <title>Proyecto DIW CSS</title>
+    <link rel="stylesheet" type="text/css" href="static/css/styles.css" />
+    <style>
+      .contact article div,
+      main p {
+        color: var(--color-parrafos);
+      }
+
+      .blog article section {
+        border-top: 1px solid #cacaca;
+      }
+
+      h2:hover {
+        transform: scale(1.1);
+      }
+
+      header nav a:hover {
+        color: bisque;
+      }
+    </style>
+  </head>
+  <body>
+    <header id="header">
+      <img src="imagenes/logo.png" alt="logo página web" />
+      <nav>
+        <span class="toggle-button" onclick="toggleMenu()">☰ Menu</span>
+        <ul class="menu-principal">
+          <li><a href="#header" class="seleccionado">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#client">Client</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div>· Hello ·</div>
+      <h1>I Am <span>Developer</span></h1>
+      <div>Web Developer - Ux/Ui Designer - Web Designer</div>
+      <section>
+        <h2>Redes sociales</h2>
+        <ul>
+          <li>
+            <a href="#" title="Facebook"
+              ><img src="imagenes/redes/facebook.png" alt="Facebook"
+            /></a>
+          </li>
+          <li>
+            <a href="#" title="Twitter"
+              ><img src="imagenes/redes/twitter.png" alt="Twitter"
+            /></a>
+          </li>
+          <li>
+            <a href="#" title="Linkedin"
+              ><img src="imagenes/redes/linkedin.png" alt="Linkedin"
+            /></a>
+          </li>
+          <li>
+            <a href="#" title="Pinterest"
+              ><img src="imagenes/redes/pinterest.png" alt="Pinterest"
+            /></a>
+          </li>
+          <li>
+            <a href="#" title="Instagram"
+              ><img src="imagenes/redes/instagram.png" alt="Instagram"
+            /></a>
+          </li>
+        </ul>
+      </section>
+    </header>
+    <main>
+      <svg width="60" height="60">
+        <circle
+          cx="30"
+          cy="30"
+          r="20"
+          fill="#aeefff"
+          stroke="#004080"
+          stroke-width="1.5"
+        />
+        <text x="15" y="35" font-family="Arial" font-size="15" fill="black">
+          A
+        </text>
+        <text x="30" y="35" font-family="Arial" font-size="15" fill="black">
+          M
+        </text>
+      </svg>
+      <section id="about" class="about">
+        <h2>About</h2>
+        <section>
+          <h3>Presentación</h3>
+          <article>
+            <img src="imagenes/fotoperfil.jpeg" alt="servicio2" />
+            <h4>James William</h4>
+            <div>Web Developer</div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Modi
+              facere perspiciatis doloremque vero rerum inventore, consequator,
+              suscipit. Aperiam totam, praesentium? Dolore porro dolorum animi
+              veritatis maxime alias fugit, rerum perspiciatis eius aperiam
+              ipsam optio explicabo.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque
+              sit suscipit ratione hic, doloribus maxime perspiciatis iste
+              sapiente error illo.
+            </p>
+            <section>
+              <h5>Etiquetas</h5>
+              <ul>
+                <li>Bootstrap</li>
+                <li>Html5</li>
+                <li>Css3</li>
+                <li>PSD</li>
+                <li>Jquery</li>
+                <li>GitHub</li>
+                <li>JavaScript</li>
+                <li>PHP</li>
+                <li>Wordpress</li>
+                <li>Git</li>
+                <li>Photoshop</li>
+              </ul>
+            </section>
+            <audio controls>
+              <source src="audio/proyectoAudio.mp3" type="audio/mpeg" />
+            </audio>
+            <video controls>
+              <source src="video/videoCreado.mp4" type="video/mp4" />
+            </video>
+            <iframe
+              src="https://www.youtube.com/embed/ptc4Awb0UpU?si=zJGApbRA8juVYR6s"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </article>
+        </section>
+        <section>
+          <h3>Estadisticas</h3>
+          <ul>
+            <li>
+              <article>
+                <h4>Graphics Design</h4>
+                <div>88%</div>
+                <img alt="estadistica 1" src="imagenes/estadistica1.PNG" />
+              </article>
+            </li>
+            <li>
+              <article>
+                <h4>SEO</h4>
+                <div>80%</div>
+                <img alt="estadistica 2" src="imagenes/estadistica2.PNG" />
+              </article>
+            </li>
+            <li>
+              <article>
+                <h4>Responsive Web Design</h4>
+                <div>98%</div>
+                <img alt="estadistica 3" src="imagenes/estadistica3.PNG" />
+              </article>
+            </li>
+            <li>
+              <article>
+                <h4>Website Development</h4>
+                <div>95%</div>
+                <img alt="estadistica 4" src="imagenes/estadistica4.PNG" />
+              </article>
+            </li>
+            <li>
+              <article>
+                <h4>Internet Marketing</h4>
+                <div>78%</div>
+                <img alt="estadistica 5" src="imagenes/estadistica5.PNG" />
+              </article>
+            </li>
+            <li>
+              <article>
+                <h4>Data Management</h4>
+                <div>92%</div>
+                <img alt="estadistica 6" src="imagenes/estadistica6.PNG" />
+              </article>
+            </li>
+          </ul>
+        </section>
+      </section>
+      <section id="services" class="services">
+        <div>· Services ·</div>
+        <h2>My <span>Services.</span></h2>
+        <ul>
+          <li>
+            <article>
+              <img
+                src="imagenes/iconos/iconoconfiguracion.png"
+                alt="servicio1"
+              />
+              <h3>Branding & Identity</h3>
+              <p>
+                We will make you a brand that is catchy and leaves a trace,
+                maybe that a Your target group will never forget you.
+              </p>
+            </article>
+          </li>
+          <li>
+            <article>
+              <img src="imagenes/iconos/iconoavion.webp" alt="servicio2" />
+              <h3>Graphic Design</h3>
+              <p>
+                We will make you a brand that is catchy and leaves a trace,
+                maybe that a Your target group will never forget you.
+              </p>
+            </article>
+          </li>
+          <li>
+            <article>
+              <img src="imagenes/iconos/iconopensar.png" alt="servicio3" />
+              <h3>Digital Merketing</h3>
+              <p>
+                We will make you a brand that is catchy and leaves a trace,
+                maybe that a Your target group will never forget you.
+              </p>
+            </article>
+          </li>
+          <li>
+            <article>
+              <img src="imagenes/iconos/iconocamara.png" alt="servicio4" />
+              <h3>Photography</h3>
+              <p>
+                We will make you a brand that is catchy and leaves a trace,
+                maybe that a Your target group will never forget you.
+              </p>
+            </article>
+          </li>
+          <li>
+            <article>
+              <img src="imagenes/iconos/iconocapas.png" alt="servicio5" />
+              <h3>Customizability</h3>
+              <p>
+                We will make you a brand that is catchy and leaves a trace,
+                maybe that a Your target group will never forget you.
+              </p>
+            </article>
+          </li>
+          <li>
+            <article>
+              <img src="imagenes/iconos/iconoordenador.png" alt="servicio6" />
+              <h3>Responsive</h3>
+              <p>
+                We will make you a brand that is catchy and leaves a trace,
+                maybe that a Your target group will never forget you.
+              </p>
+            </article>
+          </li>
+        </ul>
+        <section>
+          <h3>logros de los servicios</h3>
+          <ul>
+            <li>
+              <article>
+                <img src="imagenes/iconos/iconorelojblanco.png" alt="logro1" />
+                <div>492</div>
+                <h4>Working hours</h4>
+              </article>
+            </li>
+            <li>
+              <article>
+                <img src="imagenes/iconos/iconoregaloblanco.png" alt="logro2" />
+                <div>643</div>
+                <h4>Completed Projects</h4>
+              </article>
+            </li>
+            <li>
+              <article>
+                <img
+                  src="imagenes/iconos/iconopersonablanco.webp"
+                  alt="logro3"
+                />
+                <div>102</div>
+                <h4>Happy Client</h4>
+              </article>
+            </li>
+            <li>
+              <article>
+                <img src="imagenes/iconos/iconopremioblanco.png" alt="logro4" />
+                <div>6</div>
+                <h4>Winner Award</h4>
+              </article>
+            </li>
+          </ul>
+        </section>
+      </section>
+      <section id="work" class="recent-work">
+        <div>· Portfolio ·</div>
+        <h2>Recent <span>Work.</span></h2>
+        <nav>
+          <ul>
+            <li><a href="#all">All</a></li>
+            <li><a href="#graphic">Graphic</a></li>
+            <li><a href="#brand">Brand</a></li>
+            <li><a href="#print">Print</a></li>
+            <li><a href="#web">Web</a></li>
+          </ul>
+        </nav>
+        <section id="all">
+          <h3>All</h3>
+          <ul>
+            <li>
+              <article>
+                <h4>Trabajo 1</h4>
+                <img src="imagenes/trabajo1.jpg" alt="trabajo1" />
+              </article>
+            </li>
+            <li>
+              <article>
+                <h4>Trabajo 2</h4>
+                <img src="imagenes/trabajo2.jpg" alt="trabajo2" />
+              </article>
+            </li>
+            <li>
+              <article>
+                <h4>Trabajo 3</h4>
+                <img src="imagenes/trabajo3.jpg" alt="trabajo3" />
+              </article>
+            </li>
+            <li>
+              <article>
+                <h4>Trabajo 4</h4>
+                <img src="imagenes/trabajo4.webp" alt="trabajo4" />
+              </article>
+            </li>
+            <li>
+              <article>
+                <h4>Trabajo 5</h4>
+                <img src="imagenes/trabajo5.jpg" alt="trabajo5" />
+              </article>
+            </li>
+            <li>
+              <article>
+                <h4>Trabajo 6</h4>
+                <img src="imagenes/trabajo6.jpg" alt="trabajo6" />
+              </article>
+            </li>
+          </ul>
+        </section>
+        <section id="graphic">
+          <h3>Graphic</h3>
+          <ul>
+            <li>
+              <article>
+                <h4>Trabajo 1</h4>
+                <img src="imagenes/trabajo1.jpg" alt="trabajo1" />
+              </article>
+            </li>
+            <li>
+              <article>
+                <h4>Trabajo 2</h4>
+                <img src="imagenes/trabajo2.jpg" alt="trabajo2" />
+              </article>
+            </li>
+          </ul>
+        </section>
+        <section id="brand">
+          <h3>Brand</h3>
+          <ul>
+            <li>
+              <article>
+                <h4>Trabajo 3</h4>
+                <img src="imagenes/trabajo3.jpg" alt="trabajo3" />
+              </article>
+            </li>
+            <li>
+              <article>
+                <h4>Trabajo 4</h4>
+                <img src="imagenes/trabajo4.webp" alt="trabajo4" />
+              </article>
+            </li>
+          </ul>
+        </section>
+        <section id="print">
+          <h3>Print</h3>
+          <ul>
+            <li>
+              <article>
+                <h4>Trabajo 4</h4>
+                <img src="imagenes/trabajo4.webp" alt="trabajo4" />
+              </article>
+            </li>
+            <li>
+              <article>
+                <h4>Trabajo 5</h4>
+                <img src="imagenes/trabajo5.jpg" alt="trabajo5" />
+              </article>
+            </li>
+            <li>
+              <article>
+                <h4>Trabajo 6</h4>
+                <img src="imagenes/trabajo6.jpg" alt="trabajo6" />
+              </article>
+            </li>
+          </ul>
+        </section>
+        <section id="web">
+          <h3>Web</h3>
+          <ul>
+            <li>
+              <article>
+                <h4>Trabajo 2</h4>
+                <img src="imagenes/trabajo2.jpg" alt="trabajo2" />
+              </article>
+            </li>
+            <li>
+              <article>
+                <h4>Trabajo 3</h4>
+                <img src="imagenes/trabajo3.jpg" alt="trabajo3" />
+              </article>
+            </li>
+            <li>
+              <article>
+                <h4>Trabajo 4</h4>
+                <img src="imagenes/trabajo4.webp" alt="trabajo4" />
+              </article>
+            </li>
+          </ul>
+        </section>
+      </section>
+      <section id="client" class="client-testimonials">
+        <div>· Client Say ·</div>
+        <h2>Client <span>Testimonials.</span></h2>
+        <ul>
+          <li>
+            <article>
+              <h3>Página 1 cliente</h3>
+              <img src="imagenes/fotocliente.jpg" alt="foto perfil cliente" />
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi
+              </p>
+              <div>Jeffrey Way, Envato+</div>
+            </article>
+          </li>
+          <li>
+            <article>
+              <h3>Página 2 cliente</h3>
+              <img src="imagenes/fotocliente.jpg" alt="foto perfil cliente" />
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi
+              </p>
+              <div>Jeffrey Way, Envato+2</div>
+            </article>
+          </li>
+        </ul>
+        <div class="puntoscarrusel">
+          <div></div>
+          <div></div>
+        </div>
+      </section>
+      <section id="blog" class="blog">
+        <div>· Blog ·</div>
+        <h2>Latest <span>News.</span></h2>
+        <ul>
+          <li>
+            <article>
+              <img src="imagenes/fotoblog1.jpg" alt="foto blog1" />
+              <div style="color: white">June 15, 2017</div>
+              <h3>Hiking the Isle of Skye</h3>
+              <p>
+                We lysses by James Joyce: a Classic for a reason Snth Schlitz,
+                tempor duis single-origin coffee ea next level fanny pack
+                nostrud.
+              </p>
+              <section>
+                <h4>Barra Usuario</h4>
+                <img src="imagenes/fotocliente.jpg" alt="foto perfil cliente" />
+                <div>Smith</div>
+                <a href="#"></a>
+              </section>
+            </article>
+          </li>
+          <li>
+            <article>
+              <img src="imagenes/fotoblog2.jpg" alt="foto blog2" />
+              <div style="color: white">June 15, 2017</div>
+              <h3>The Best Template</h3>
+              <p>
+                We lysses by James Joyce: a Classic for a reason Snth Schlitz,
+                tempor duis single-origin coffee ea next level fanny pack
+                nostrud.
+              </p>
+              <section>
+                <h4>Barra Usuario</h4>
+                <img src="imagenes/fotocliente.jpg" alt="foto perfil cliente" />
+                <div>Smith</div>
+                <a href="#"></a>
+              </section>
+            </article>
+          </li>
+          <li>
+            <article>
+              <img src="imagenes/fotoblog3.jpg" alt="foto blog3" />
+              <div style="color: white">June 15, 2017</div>
+              <h3>Hiking the Isle of Skye</h3>
+              <p>
+                We lysses by James Joyce: a Classic for a reason Snth Schlitz,
+                tempor duis single-origin coffee ea next level fanny pack
+                nostrud.
+              </p>
+              <section>
+                <h4>Barra Usuario</h4>
+                <img src="imagenes/fotocliente.jpg" alt="foto perfil cliente" />
+                <div>Smith</div>
+                <a href="#"></a>
+              </section>
+            </article>
+          </li>
+        </ul>
+      </section>
+      <section id="contact" class="contact">
+        <div>· Contact ·</div>
+        <h2>Get In <span>Touch.</span></h2>
+        <section>
+          <h3>Otras fromas de contactar</h3>
+          <ul>
+            <li>
+              <article>
+                <img src="imagenes/iconos/telefono.png" alt="telefono" />
+                <h4>PHONE:</h4>
+                <div>+20 010 2517 8918</div>
+              </article>
+            </li>
+            <li>
+              <article>
+                <img src="imagenes/iconos/ubicacion.png" alt="ubicacion" />
+                <h4>PHONE:</h4>
+                <div>Upper East Side, San Francisco</div>
+              </article>
+            </li>
+            <li>
+              <article>
+                <img src="imagenes/iconos/correo.png" alt="correo" />
+                <h4>EMAIL:</h4>
+                <div>Support@website.com</div>
+              </article>
+            </li>
+          </ul>
+        </section>
+        <section>
+          <h3>Contactar por página</h3>
+          <form action="#" method="post">
+            <input type="text" name="name" placeholder="Name" required />
+            <input type="email" name="email" placeholder="Email" required />
+            <input type="text" name="subject" placeholder="Subject" required />
+            <textarea
+              name="message"
+              placeholder="Message"
+              rows="7"
+              required
+            ></textarea>
+            <input type="submit" value="-----  SEND" />
+          </form>
+        </section>
+      </section>
+    </main>
+    <footer>
+      <section>
+        <h2>Nuestra marca</h2>
+        <img src="imagenes/logo.png" alt="logo página web" />
+        <p>
+          We love who we are and we are very proud to be Curabitur si amet
+          magnaquam. Praesent in libero vel turpis.
+        </p>
+        <section>
+          <h3>Redes sociales</h3>
+          <ul>
+            <li>
+              <a href="#" title="Facebook"
+                ><img src="imagenes/redes/facebook.png" alt="Facebook"
+              /></a>
+            </li>
+            <li>
+              <a href="#" title="Twitter"
+                ><img src="imagenes/redes/twitter.png" alt="Twitter"
+              /></a>
+            </li>
+            <li>
+              <a href="#" title="Linkedin"
+                ><img src="imagenes/redes/linkedin.png" alt="Linkedin"
+              /></a>
+            </li>
+            <li>
+              <a href="#" title="Pinterest"
+                ><img src="imagenes/redes/pinterest.png" alt="Pinterest"
+              /></a>
+            </li>
+            <li>
+              <a href="#" title="Instagram"
+                ><img src="imagenes/redes/instagram.png" alt="Instagram"
+              /></a>
+            </li>
+          </ul>
+        </section>
+      </section>
+      <section>
+        <h2>Copyright</h2>
+        <div>
+          © 2018 Copyright <span>Theme_Bangia</span> All rights reserved
+        </div>
+      </section>
+    </footer>
+    <script>
+      // cuando se cargue el DOM, a los enlaces del header si son presionados
+      // se pone la clase seleccionado al correspondiente y se quita la clase en el resto
+      // la clase seleccionado otorga el estilo de 3 puntos azules debajo de los enlaces
+      document.addEventListener("DOMContentLoaded", function () {
+        const enlaces = document.querySelectorAll("header nav a");
+
+        enlaces.forEach((enlace) => {
+          enlace.addEventListener("click", function () {
+            enlaces.forEach((otroEnlace) => {
+              otroEnlace.classList.remove("seleccionado");
+            });
+
+            this.classList.add("seleccionado");
+          });
+        });
+      });
+
+      // cuando se cargue el DOM, a los enlaces de la sección recent-work si son presionados
+      // se pone la clase seleccionado al correspondiente y se quita la clase en el resto
+      // la clase seleccionado otorga el estilo de 3 puntos azules debajo de los enlaces
+      document.addEventListener("DOMContentLoaded", function () {
+        const enlaces = document.querySelectorAll(".recent-work nav a");
+
+        enlaces.forEach((enlace) => {
+          enlace.addEventListener("click", function () {
+            enlaces.forEach((otroEnlace) => {
+              otroEnlace.classList.remove("seleccionado");
+            });
+
+            this.classList.add("seleccionado");
+          });
+        });
+      });
+
+      // cuando se hace click en punto1 se muestra la paginacliente1 y vicebersa
+      // también se pone el estilo correspondiente en ese punto y se quita en el otro
+      document.addEventListener("DOMContentLoaded", function () {
+        const punto1 = document.querySelector(
+          ".puntoscarrusel div:nth-child(1)"
+        );
+        const punto2 = document.querySelector(
+          ".puntoscarrusel div:nth-child(2)"
+        );
+        const pagina1cliente = document.querySelector(
+          ".client-testimonials ul li:nth-child(1)"
+        );
+        const pagina2cliente = document.querySelector(
+          ".client-testimonials ul li:nth-child(2)"
+        );
+
+        punto1.addEventListener("click", function () {
+          pagina1cliente.style.display = "block";
+          pagina2cliente.style.display = "none";
+          punto1.style.border = "none";
+          punto1.style.backgroundColor = "#6ecab2";
+          punto2.style.backgroundColor = "white";
+          punto2.style.border = "2px solid #6ecab2";
+        });
+
+        punto2.addEventListener("click", function () {
+          pagina1cliente.style.display = "none";
+          pagina2cliente.style.display = "block";
+          punto2.style.border = "none";
+          punto2.style.backgroundColor = "#6ecab2";
+          punto1.style.backgroundColor = "white";
+          punto1.style.border = "2px solid #6ecab2";
+        });
+      });
+    </script>
+  </body>
+</html>
