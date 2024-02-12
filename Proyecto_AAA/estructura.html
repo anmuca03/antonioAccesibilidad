@@ -24,18 +24,18 @@
     </style>
   </head>
   <body>
-    <header id="header" role="banner">
+    <header id="header">
       <img src="imagenes/logo.png" alt="logo página web, movil blanco con letra Z dentro">
       <nav aria-label="menú pricipal">
         <span class="toggle-button" onclick="toggleMenu()">☰ Menu</span>
-        <ul class="menu-principal">
-          <li><a href="#header" class="seleccionado">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#work">Work</a></li>
-          <li><a href="#client">Client</a></li>
-          <li><a href="#blog">Blog</a></li>
-          <li><a href="#contact">Contact</a></li>
+        <ul role="menu" class="menu-principal">
+          <li role="menuitem"><a href="#header" class="seleccionado">Home</a></li>
+          <li role="menuitem"><a href="#about">About</a></li>
+          <li role="menuitem"><a href="#services">Services</a></li>
+          <li role="menuitem"><a href="#work">Work</a></li>
+          <li role="menuitem"><a href="#client">Client</a></li>
+          <li role="menuitem"><a href="#blog">Blog</a></li>
+          <li role="menuitem"><a href="#contact">Contact</a></li>
         </ul>
       </nav>
       <div>· Hello ·</div>
@@ -333,12 +333,12 @@
         <div>· Portfolio ·</div>
         <h2>Recent <span>Work.</span></h2>
         <nav aria-label="menú trabajos">
-          <ul>
-            <li><a href="#all">All</a></li>
-            <li><a href="#graphic">Graphic</a></li>
-            <li><a href="#brand">Brand</a></li>
-            <li><a href="#print">Print</a></li>
-            <li><a href="#web">Web</a></li>
+          <ul role="menu">
+            <li role="menuitem"><a href="#all">All</a></li>
+            <li role="menuitem"><a href="#graphic">Graphic</a></li>
+            <li role="menuitem"><a href="#brand">Brand</a></li>
+            <li role="menuitem"><a href="#print">Print</a></li>
+            <li role="menuitem"><a href="#web">Web</a></li>
           </ul>
         </nav>
         <section id="all">
