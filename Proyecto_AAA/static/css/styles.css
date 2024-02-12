@@ -5,7 +5,7 @@
   --color-azul-fosforito: #6ecab2;
   --color-gris-claro: #f6f6f6;
   --color-gris-oscuro: #323232;
-  --color-parrafos: #3e3e3e;
+  --color-parrafos: #282828;
   --sombras: 0 0 3px #0033;
   --separacion-promedio: 7%;
   --padding-grande: 30%;
@@ -319,7 +319,7 @@ header section ul li a img {
   z-index: 1;
 }
 
-.about audio {
+.about audio:first-child {
   margin-top: 10%;
   width: 70%;
   font-size: 1em;
@@ -642,8 +642,9 @@ header section ul li a img {
   padding-left: 5%;
   bottom: 25px;
   font-size: 0.6rem;
-  font-family: Stolzl-Light, sans-serif;
-  text-shadow: 0 0 4px black;
+  font-family: Stolzl-Bold, sans-serif;
+  text-shadow: 0 0 4px rgb(255, 255, 255);
+  color: black !important;
 }
 
 .blog ul li article h3 {
