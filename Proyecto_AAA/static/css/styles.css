@@ -4,8 +4,8 @@
 :root {
   --color-azul-fosforito: #6ecab2;
   --color-gris-claro: #f6f6f6;
-  --color-gris-oscuro: #323232;
-  --color-parrafos: #282828;
+  --color-gris-oscuro: #1a1a1a;
+  --color-parrafos: #141414;
   --sombras: 0 0 3px #0033;
   --separacion-promedio: 7%;
   --padding-grande: 30%;
@@ -62,7 +62,7 @@ body {
 
 p {
   font-size: 0.6rem;
-  font-family: Stolzl-Book, sans-serif;
+  font-family: Stolzl-Regular, sans-serif;
 }
 
 ul {
@@ -643,7 +643,7 @@ header section ul li a img {
   bottom: 25px;
   font-size: 0.6rem;
   font-family: Stolzl-Bold, sans-serif;
-  text-shadow: 0 0 4px rgb(255, 255, 255);
+  text-shadow: 0 0 2px white;
   color: black !important;
 }
 
@@ -766,6 +766,7 @@ header section ul li a img {
   padding: 2%;
   width: 100%;
   box-sizing: border-box;
+  color: black;
 }
 
 .contact > section form * + * + * {
