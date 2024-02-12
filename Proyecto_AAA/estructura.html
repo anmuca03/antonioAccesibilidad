@@ -95,7 +95,7 @@
           <h3>Presentación</h3>
           <article aria-label="articulo presentacion que explica las caracteristicas del usuario en la web">
             <img src="imagenes/fotoperfil.jpeg" alt="servicio2">
-            <h4 aria-level="2">James William</h4>
+            <h4>James William</h4>
             <div>Web Developer</div>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Modi
@@ -670,67 +670,7 @@
         </div>
       </section>
     </footer>
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        const enlaces = document.querySelectorAll("header nav a");
-
-        enlaces.forEach((enlace) => {
-          enlace.addEventListener("click", function () {
-            enlaces.forEach((otroEnlace) => {
-              otroEnlace.classList.remove("seleccionado");
-            });
-
-            this.classList.add("seleccionado");
-          });
-        });
-      });
-
-      document.addEventListener("DOMContentLoaded", function () {
-        const enlaces = document.querySelectorAll(".recent-work nav a");
-
-        enlaces.forEach((enlace) => {
-          enlace.addEventListener("click", function () {
-            enlaces.forEach((otroEnlace) => {
-              otroEnlace.classList.remove("seleccionado");
-            });
-
-            this.classList.add("seleccionado");
-          });
-        });
-      });
-
-      document.addEventListener("DOMContentLoaded", function () {
-        const punto1 = document.querySelector(
-          ".puntoscarrusel div:nth-child(1)"
-        );
-        const punto2 = document.querySelector(
-          ".puntoscarrusel div:nth-child(2)"
-        );
-        const pagina1cliente = document.querySelector(
-          ".client-testimonials ul li:nth-child(1)"
-        );
-        const pagina2cliente = document.querySelector(
-          ".client-testimonials ul li:nth-child(2)"
-        );
-
-        punto1.addEventListener("click", function () {
-          pagina1cliente.style.display = "block";
-          pagina2cliente.style.display = "none";
-          punto1.style.border = "none";
-          punto1.style.backgroundColor = "#6ecab2";
-          punto2.style.backgroundColor = "white";
-          punto2.style.border = "2px solid #6ecab2";
-        });
-
-        punto2.addEventListener("click", function () {
-          pagina1cliente.style.display = "none";
-          pagina2cliente.style.display = "block";
-          punto2.style.border = "none";
-          punto2.style.backgroundColor = "#6ecab2";
-          punto1.style.backgroundColor = "white";
-          punto1.style.border = "2px solid #6ecab2";
-        });
-      });
+    <script src="static/js/funcionalidad.js">
     </script>
   </body>
 </html>

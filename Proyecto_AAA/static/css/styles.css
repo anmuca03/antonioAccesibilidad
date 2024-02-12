@@ -107,7 +107,6 @@ header section h2,
 .blog article section h4 {
   position: absolute;
   bottom: 9999px;
-  /* display: none; */
 }
 
 /* estilos globales de títulos y subtítulos de secciones */
@@ -284,8 +283,8 @@ header section ul {
   display: flex;
   flex-direction: row;
   list-style-type: none;
-  padding-left: 35%;
-  padding-right: 35%;
+  padding-left: 30%;
+  padding-right: 30%;
   justify-content: space-between;
 }
 
@@ -835,7 +834,7 @@ footer section ul li a {
 footer section ul li a img {
   width: 100%;
   padding: 30%;
-  background-color: var(--color-gris-oscuro);
+  background-color: #535353;
   border-radius: 50%;
 }
 
@@ -849,7 +848,7 @@ footer section:nth-child(2) div {
   padding-bottom: 1.5%;
   font-size: 0.6rem;
   font-family: Stolzl-Light, sans-serif;
-  color: #ffffff;
+  color: #ffff;
 }
 
 footer section:nth-child(2) div span {
