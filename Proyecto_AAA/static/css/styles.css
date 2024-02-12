@@ -327,12 +327,13 @@ header section ul li a img {
 
 .about video {
   width: 70%;
-  margin-bottom: 10%;
+  margin-bottom: 0;
   margin-top: 10%;
 }
 
 .about iframe {
   width: 70%;
+  margin-top: 10%;
 }
 
 .about section:nth-child(2) article img {
