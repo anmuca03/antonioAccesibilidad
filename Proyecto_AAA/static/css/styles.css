@@ -864,7 +864,7 @@ footer section:nth-child(2) div span {
 @media only screen and (width <= 767px) {
   /* cambio el tamaño fuente y los padding pongo menos porque no quedan tan bien */
   :root {
-    font-size: 10px;
+    font-size: 12px;
 
     --padding-grande: 15%;
     --padding-corto: 10%;
@@ -980,7 +980,7 @@ footer section:nth-child(2) div span {
 @media only screen and (767px <= width <= 991px) {
   /* cambio el tamaño fuente y los padding pongo menos porque no quedan tan bien */
   :root {
-    font-size: 12px;
+    font-size: 13px;
 
     --padding-grande: 20%;
     --padding-corto: 15%;
