@@ -1,5 +1,10 @@
 'use strict';
 
+window.addEventListener("hashchange", function(event) {
+  // Previene el comportamiento predeterminado de desplazarse hacia el elemento de destino
+  event.preventDefault();
+  // Puedes agregar otro código aquí si es necesario
+});
 // cuando se cargue el DOM, a los enlaces del header si son presionados
 // se pone la clase seleccionado al correspondiente y se quita la clase en el resto
 // la clase seleccionado otorga el estilo de 3 puntos azules debajo de los enlaces
@@ -31,7 +36,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
       this.classList.add('seleccionado');
     });
-  });
+  }); enlaces[0].click();
 });
 
 // cuando se hace click en punto1 se muestra la paginacliente1 y vicebersa
