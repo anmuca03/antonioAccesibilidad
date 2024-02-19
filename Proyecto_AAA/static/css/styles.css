@@ -855,7 +855,22 @@ footer section:nth-child(2) div span {
   font-family: Stolzl-Thin, sans-serif;
 }
 
+.contact article div,
+main p {
+  color: var(--color-parrafos);
+}
 
+.blog article section {
+  border-top: 1px solid #cacaca;
+}
+
+h2:hover {
+  transform: scale(1.1);
+}
+
+header nav a:hover {
+  color: bisque;
+}
 
 
 /* MEDIA QUERYS */
@@ -864,8 +879,6 @@ footer section:nth-child(2) div span {
 @media only screen and (width <= 767px) {
   /* cambio el tamaño fuente y los padding pongo menos porque no quedan tan bien */
   :root {
-    font-size: 12px;
-
     --padding-grande: 15%;
     --padding-corto: 10%;
   }
@@ -980,8 +993,6 @@ footer section:nth-child(2) div span {
 @media only screen and (767px <= width <= 991px) {
   /* cambio el tamaño fuente y los padding pongo menos porque no quedan tan bien */
   :root {
-    font-size: 13px;
-
     --padding-grande: 20%;
     --padding-corto: 15%;
   }
