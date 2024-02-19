@@ -21,28 +21,8 @@
 }
 
 @font-face {
-  font-family: Stolzl-Book;
-  src: url("../../fuentes/Stolzl-Book.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: Stolzl-Light;
-  src: url("../../fuentes/Stolzl-Light.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: Stolzl-Medium;
-  src: url("../../fuentes/Stolzl-Medium.woff2") format("woff2");
-}
-
-@font-face {
   font-family: Stolzl-Regular;
   src: url("../../fuentes/Stolzl-Regular.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: Stolzl-Thin;
-  src: url("../../fuentes/Stolzl-Thin.woff2") format("woff2");
 }
 
 /* ESTRUCTURA PAGINA WEB */
@@ -70,11 +50,11 @@ ul {
 }
 
 h4 {
-  font-family: Stolzl-Medium, sans-serif;
+  font-family: Stolzl-Regular, sans-serif;
 }
 
 h3 {
-  font-family: Stolzl-Book, sans-serif;
+  font-family: Stolzl-Regular, sans-serif;
 }
 
 /* estilo para los enlaces con la clase 'seleccionado' (3 puntos azules) */
@@ -136,7 +116,7 @@ header > div:first-of-type {
 /* icono debajo de los títulos de las secciones */
 main > section h2 {
   font-size: 2rem;
-  font-family: Stolzl-Thin, sans-serif;
+  font-family: Stolzl-Regular, sans-serif;
   margin-bottom: 3rem;
   background-image: url("../../imagenes/iconos/debajotitulo.PNG");
   background-repeat: no-repeat;
@@ -214,7 +194,7 @@ header h1 {
   margin-bottom: 6%;
   margin-top: 6%;
   font-size: 2.6rem;
-  font-family: Stolzl-Thin, sans-serif;
+  font-family: Stolzl-Regular, sans-serif;
 }
 
 header h1 span {
@@ -247,7 +227,7 @@ header div:nth-child(5) {
 }
 
 header div + h1 + div {
-  font-family: Stolzl-Light, sans-serif;
+  font-family: Stolzl-Regular, sans-serif;
 }
 
 header div,
@@ -345,7 +325,7 @@ header section ul li a img {
 
 .about section:nth-child(2) article div {
   font-size: 0.6rem;
-  font-family: Stolzl-Book, sans-serif;
+  font-family: Stolzl-Regular, sans-serif;
   margin-bottom: 2%;
 }
 
@@ -356,7 +336,7 @@ header section ul li a img {
   margin: 1%;
   background-color: #eefffd;
   font-size: 0.6rem;
-  font-family: Stolzl-Book, sans-serif;
+  font-family: Stolzl-Regular, sans-serif;
 }
 
 .about section:nth-child(3) {
@@ -386,7 +366,7 @@ header section ul li a img {
 .about section:nth-child(3) article h4 {
   margin: 0;
   font-size: 0.6rem;
-  font-family: Stolzl-Book, sans-serif;
+  font-family: Stolzl-Regular, sans-serif;
   display: flex;
   align-items: end;
   justify-content: left;
@@ -396,7 +376,7 @@ header section ul li a img {
 .about section:nth-child(3) article div {
   display: flex;
   font-size: 0.6rem;
-  font-family: Stolzl-Book, sans-serif;
+  font-family: Stolzl-Regular, sans-serif;
   align-items: end;
 }
 
@@ -426,7 +406,7 @@ header section ul li a img {
 }
 
 .abut section ul h4 {
-  font-family: Stolzl-Book, sans-serif;
+  font-family: Stolzl-Regular, sans-serif;
 }
 
 
@@ -485,7 +465,7 @@ header section ul li a img {
 }
 
 .services section ul li article h4 {
-  font-family: Stolzl-Light, sans-serif;
+  font-family: Stolzl-Regular, sans-serif;
   font-size: 0.8rem;
   margin: 0;
 }
@@ -565,7 +545,7 @@ header section ul li a img {
 }
 
 .client-testimonials article div {
-  font-family: Stolzl-Medium, sans-serif;
+  font-family: Stolzl-Regular, sans-serif;
   font-size: 0.6rem;
 }
 
@@ -752,7 +732,7 @@ header section ul li a img {
 }
 
 .contact > section form * {
-  font-family: Stolzl-Book, sans-serif;
+  font-family: Stolzl-Regular, sans-serif;
   font-size: 0.7rem;
   background-color: var(--color-gris-claro);
   border: 1px solid gray;
@@ -835,12 +815,12 @@ footer section:nth-child(2) div {
   padding-top: 1.5%;
   padding-bottom: 1.5%;
   font-size: 0.6rem;
-  font-family: Stolzl-Light, sans-serif;
+  font-family: Stolzl-Regular, sans-serif;
   color: #ffff;
 }
 
 footer section:nth-child(2) div span {
-  font-family: Stolzl-Thin, sans-serif;
+  font-family: Stolzl-Regular, sans-serif;
 }
 
 .contact article div,
